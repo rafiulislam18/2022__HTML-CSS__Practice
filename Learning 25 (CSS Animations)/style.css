@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    animation-name: box1-animation;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    float: left;
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    animation-name: box2-animation;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    float: right;
+}
+
+@keyframes box1-animation {
+    from {
+        background-color: red;
+        width: 0px;
+        height: 0px;
+    }
+    to {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@keyframes box2-animation {
+    0% {
+        background-color: red;
+        width: 0px;
+        height: 0px;
+    }
+    10% {
+        background-color: yellow;
+        width: 100px;
+        height: 100px;
+    }
+    50% {
+        background-color: orange;
+        width: 150px;
+        height: 150px;
+    }
+    100% {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+    }
+}

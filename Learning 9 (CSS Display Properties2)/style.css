@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    padding: 20px;
+    margin: 0 auto;
+    background-color: #ddd;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden2 {
+    visibility: hidden;
+}

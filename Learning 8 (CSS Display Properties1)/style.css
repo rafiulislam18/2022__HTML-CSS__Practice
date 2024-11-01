@@ -1,0 +1,22 @@
+.section-a {
+    width: 500px;
+    border: 1px solid gray;
+    display: inline;
+}
+
+.section-b {
+    width: 500px;
+    display: inline;
+}
+
+.span-a {
+    display: block;
+    width: 500px;
+    border: 1px solid gray;
+}
+
+.span-b {
+    border: 1px solid gray;
+    width: 1000px;
+    display: block;
+}

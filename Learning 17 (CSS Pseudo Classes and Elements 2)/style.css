@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+}
+
+h1::before , h1::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+}
+
+h1::before {
+    left: 25%;
+}
+
+h1::after {
+    right: 25%;
+}
+
+p, li {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+p::first-letter {
+    font-size: 36px;
+    color: red;
+}
+
+p::first-line {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+p::selection {
+    background-color: green;
+    color: white;
+}
+
+li::marker {
+    color: red;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}

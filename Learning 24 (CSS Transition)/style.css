@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    float: left;
+    transition: all 0.5s linear;
+}
+
+.box1:hover {
+    width: 300px;
+    height: 300px;
+    background-color: bisque;
+    transform: rotate(45deg);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(207, 23, 183);
+    float: right;
+    transition: all 1s cubic-bezier(.65,1.69,.58,-0.89);
+    /* Visit https://cubic-bezier.com to generate cubic-bezier */
+}
+
+.box2:hover {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(31, 131, 224);
+    transform: rotate(45deg);
+}
+

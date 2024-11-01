@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid red;
+    padding: 5px;
+}
+
+input:checked {
+    width: 20px;
+    height: 20px;
+}
+
+button:disabled {
+    padding: 10px;
+}

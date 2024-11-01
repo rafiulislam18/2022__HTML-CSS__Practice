@@ -1,0 +1,32 @@
+.container {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.heading1 {
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+
+.para {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.button-group{
+    padding: 5px 10px;
+    text-transform: uppercase;
+}
+
+.primary-button{
+    background: lightcoral;
+    color: white;
+}
+
+.secondary-button{
+    background: gray;
+    color: black;
+}

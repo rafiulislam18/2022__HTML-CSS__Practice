@@ -1,0 +1,18 @@
+.container{
+    width: 600px;
+    margin: 20px auto;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 2;
+}
+
+.span1{
+    color: green;
+}
+.span1:hover{
+    cursor: pointer;
+    color: blueviolet;
+}

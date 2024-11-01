@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 800px;
+    margin: 0 auto;
+
+}
+
+.left {
+    background-color: palegoldenrod;
+    width: 200px;
+    height: 100px;
+    float: left;
+}
+
+.right {
+    background-color: palegreen;
+    width: 300px;
+    height: 200px;
+    float: right;
+}
+
+.footer{
+    width: 800px;
+    margin: 0 auto;
+    height: 150px;
+    background-color: green;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+img {
+    float: left;
+    margin-right: 1rem;
+}

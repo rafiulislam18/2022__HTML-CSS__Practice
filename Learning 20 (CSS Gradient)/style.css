@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 700px;
+    height: 250px;
+    margin: 20px auto;
+    border: 1px solid red;
+}
+
+.linear {
+    background-image: linear-gradient(to bottom right, red, yellow, green);
+}
+
+.radial {
+    background-image: radial-gradient(red, yellow, green);
+}
+
+.conic {
+    background-image: conic-gradient(red 0deg 45deg, yellow 45deg 90deg, green 210deg);
+    border-radius: 50%;
+}

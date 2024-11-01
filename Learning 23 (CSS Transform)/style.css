@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 700px;
+    height: 500px;
+    margin: 20px auto;
+    border: 2px solid black;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    transform: translate(100px, 100px) rotate(45deg);
+}
+
+.box:hover {
+    transform: translate(100px, 100px) rotate(45deg) scale(1.2, 1.2) skew(10deg);
+}
